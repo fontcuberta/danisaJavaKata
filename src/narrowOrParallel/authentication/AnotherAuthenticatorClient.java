@@ -1,6 +1,6 @@
 package narrowOrParallel.authentication;
 
-public class AnotherClientOfAuthenticator {
+public class AnotherAuthenticatorClient {
     public void unusedClientCode() {
         try {
             new AuthenticationService().isAuthenticated(3545);

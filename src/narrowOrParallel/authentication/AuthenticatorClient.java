@@ -1,13 +1,13 @@
 package narrowOrParallel.authentication;
 
-public class ClientOfAuthenticator {
+public class AuthenticatorClient {
     private AuthenticationService authenticationService;
 
     public static void main(String[] args) {
-        new ClientOfAuthenticator(new AuthenticationService()).run();
+        new AuthenticatorClient(new AuthenticationService()).run();
     }
 
-    public ClientOfAuthenticator(AuthenticationService authenticationService) {
+    public AuthenticatorClient(AuthenticationService authenticationService) {
         this.authenticationService = authenticationService;
     }
 
