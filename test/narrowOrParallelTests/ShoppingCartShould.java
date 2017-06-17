@@ -3,11 +3,9 @@ import narrowOrParallel.cart.ShoppingCart;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class ShoppingCartTest {
-
-
+public class ShoppingCartShould {
     @Test
-    public void singleItem_numberOfProductsInTheCart() throws Exception {
+    public void count_number_of_products() throws Exception {
         ShoppingCart shoppingCart = new ShoppingCart();
         shoppingCart.add(10);
 
@@ -15,7 +13,7 @@ public class ShoppingCartTest {
     }
 
     @Test
-    public void singleItem_totalPrice() throws Exception {
+    public void calculate_total_price() throws Exception {
         ShoppingCart shoppingCart = new ShoppingCart();
         shoppingCart.add(10);
 
@@ -23,7 +21,7 @@ public class ShoppingCartTest {
     }
 
     @Test
-    public void singleItem_hasDiscountIfContainsAtLeastOneProductWorthAtLeast100() throws Exception {
+    public void know_when_is_discount_applicable() throws Exception {
         ShoppingCart shoppingCart = new ShoppingCart();
         shoppingCart.add(100);
 
@@ -31,7 +29,7 @@ public class ShoppingCartTest {
     }
 
     @Test
-    public void singleItem_doesNotHaveDiscountIfContainsNoProductsWorthAtLeast100() throws Exception {
+    public void know_when_is_not_possible_to_apply_discount() throws Exception {
         ShoppingCart shoppingCart = new ShoppingCart();
         shoppingCart.add(99);
 
