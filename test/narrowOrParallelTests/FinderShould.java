@@ -16,4 +16,14 @@ public class FinderShould {
         assertThat(finder.find("programmer").size())
                 .isEqualTo(1);
     }
+
+    @Test
+    public void get_users_with_empty_profile() throws Exception {
+        UserRepository repository = new UserRepository();
+        Finder finder = new Finder(repository);
+
+        assertThat(
+                finder.find("").size())
+                .isEqualTo(1);
+    }
 }
