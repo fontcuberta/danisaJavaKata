@@ -1,6 +1,7 @@
 package narrowOrParallelTests;
 
 import narrowOrParallel.finder.Finder;
+import narrowOrParallel.finder.SpecificFinder;
 import narrowOrParallel.finder.UserRepository;
 import org.junit.Test;
 
@@ -24,6 +25,16 @@ public class FinderShould {
 
         assertThat(
                 finder.find("").size())
+                .isEqualTo(1);
+    }
+
+    @Test
+    public void avoid_duplicates() throws Exception {
+        UserRepository repository = new UserRepository();
+        SpecificFinder finder = new SpecificFinder(repository);
+
+        assertThat(
+                finder.findUnique("").size())
                 .isEqualTo(1);
     }
 }
