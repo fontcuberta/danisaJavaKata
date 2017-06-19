@@ -1,8 +1,8 @@
 package narrowOrParallelTests;
 
-import narrowOrParallel.finder.Finder;
-import narrowOrParallel.finder.SpecificFinder;
-import narrowOrParallel.finder.UserRepository;
+import narrowOrParallel.dependencyChange.Finder;
+import narrowOrParallel.dependencyChange.SpecificFinder;
+import narrowOrParallel.dependencyChange.UserRepository;
 import org.junit.Test;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;

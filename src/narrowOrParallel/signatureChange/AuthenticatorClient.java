@@ -1,4 +1,4 @@
-package narrowOrParallel.authentication;
+package narrowOrParallel.signatureChange;
 
 public class AuthenticatorClient {
     private AuthenticationService authenticationService;

@@ -1,4 +1,4 @@
-package narrowOrParallel.finder;
+package narrowOrParallel.dependencyChange;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package narrowOrParallel.finder;
+package narrowOrParallel.dependencyChange;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package narrowOrParallel.cart;
+package narrowOrParallel.structureChange;
 
 /*
   Imagine this is an external client which code

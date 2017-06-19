@@ -1,5 +1,5 @@
 package narrowOrParallelTests;
-import narrowOrParallel.authentication.AuthenticationService;
+import narrowOrParallel.signatureChange.AuthenticationService;
 import org.junit.Assert;
 import org.junit.Test;
 

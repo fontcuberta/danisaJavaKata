@@ -1,4 +1,4 @@
-package narrowOrParallel.authentication;
+package narrowOrParallel.signatureChange;
 
 public class AnotherAuthenticatorClient {
     public void unusedClientCode() {
