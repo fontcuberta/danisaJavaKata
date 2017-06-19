@@ -1,19 +1,19 @@
 package narrowOrParallel.constructorFusion;
 
 public class Player {
-    private int birthYear;
+    private String name;
     private int score;
     private Role role;
 
-    public Player(Role role, int birthYear){
+    public Player(Role role, String name){
         this.role = role;
-        this.birthYear = birthYear;
+        this.name = name;
         this.score = 0;
     }
 
-    public Player(Role role, int birth, int score){
+    public Player(Role role, String name, int score){
         this.role = role;
-        this.birthYear = birth;
+        this.name = name;
         this.score = score;
     }
 
