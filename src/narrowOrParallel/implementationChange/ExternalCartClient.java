@@ -1,4 +1,4 @@
-package narrowOrParallel.structureChange;
+package narrowOrParallel.implementationChange;
 
 /*
   Imagine this is an external client which code

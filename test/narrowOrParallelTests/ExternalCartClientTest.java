@@ -1,5 +1,5 @@
 package narrowOrParallelTests;
-import narrowOrParallel.structureChange.ExternalCartClient;
+import narrowOrParallel.implementationChange.ExternalCartClient;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package narrowOrParallel.structureChange;
+package narrowOrParallel.implementationChange;
 
 public class ShoppingCart {
     private int price;
