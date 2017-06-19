@@ -1,7 +1,5 @@
 package narrowOrParallel.constructorFusion;
 
-import java.util.Date;
-
 public class Player {
     private int birthYear;
     private int score;
@@ -10,6 +8,7 @@ public class Player {
     public Player(Role role, int birthYear){
         this.role = role;
         this.birthYear = birthYear;
+        this.score = 0;
     }
 
     public Player(Role role, int birth, int score){
