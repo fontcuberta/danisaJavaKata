@@ -1,4 +1,4 @@
-package narrowOrParallelTests;
+package tests;
 
 import narrowOrParallel.moveResponsibility.InvoiceService;
 import org.junit.Test;

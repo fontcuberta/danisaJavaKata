@@ -1,4 +1,4 @@
-package narrowOrParallelTests;
+package tests;
 import narrowOrParallel.implementationChange.ExternalCartClient;
 import org.junit.Assert;
 import org.junit.Test;

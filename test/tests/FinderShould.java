@@ -1,4 +1,4 @@
-package narrowOrParallelTests;
+package tests;
 
 import narrowOrParallel.dependencyChange.Finder;
 import narrowOrParallel.dependencyChange.SpecificFinder;

@@ -1,4 +1,4 @@
-package narrowOrParallelTests;
+package tests;
 
 import narrowOrParallel.pipelines.Author;
 import org.assertj.core.api.Condition;

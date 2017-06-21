@@ -1,4 +1,4 @@
-package narrowOrParallelTests;
+package tests;
 
 import narrowOrParallel.replaceType.OldVehicleQuery;
 import narrowOrParallel.replaceType.SqlVehicleMatcher;
