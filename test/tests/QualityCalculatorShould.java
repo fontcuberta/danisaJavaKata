@@ -10,10 +10,10 @@ public class QualityCalculatorShould {
 
     @Test
     public void calculate_score() throws Exception {
-        QualityCalculator analizer = new QualityCalculator();
-        analizer.rateFacilities(Quality.Excellent);
-        analizer.rateLocation(Quality.Excellent);
+        QualityCalculator calculator = new QualityCalculator();
+        calculator.rateFacilities(Quality.Excellent);
+        calculator.rateLocation(Quality.Excellent);
 
-        assertThat(analizer.getScore()).isEqualTo(12);
+        assertThat(calculator.getScore()).isEqualTo(12);
     }
 }
