@@ -16,11 +16,13 @@ public class YouShouldUnderstandValuesAndReferences {
         other.numbers[0] = 100;
         instance.secondMethod(other);
         //assertThat(other.numbers[0]).isEqualTo(-1000);
+        //assertThat(other.someField).isEqualTo("???");
 
         SomeType another = new SomeType();
         another.numbers[0] = 200;
         instance.thirdMethod(another);
         //assertThat(another.numbers[0]).isEqualTo(-1000);
+        //assertThat(another.someField).isEqualTo("???");
         //assertThat(another.child).isNull();
 
         SomeType yetAnother = new SomeType();

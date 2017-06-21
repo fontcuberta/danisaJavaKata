@@ -15,10 +15,12 @@ public class SomeType {
 
     public void secondMethod(SomeType other){
         other = new SomeType();
+        other.someField = "blah";
     }
 
     public void thirdMethod(SomeType other){
         other.numbers[0] = 100;
+        other.someField = "changed";
         other.child = new SomeType();
     }
 
