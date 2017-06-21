@@ -1,6 +1,6 @@
 import org.junit.Test;
-import replaceConstantsWithEnum.Quality;
-import replaceConstantsWithEnum.QualityCalculator;
+import replacePrimitiveConstantsWithType.Quality;
+import replacePrimitiveConstantsWithType.QualityCalculator;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 

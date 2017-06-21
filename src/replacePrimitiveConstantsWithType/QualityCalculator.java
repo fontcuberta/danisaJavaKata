@@ -1,4 +1,4 @@
-package replaceConstantsWithEnum;
+package replacePrimitiveConstantsWithType;
 
 import java.util.Objects;
 

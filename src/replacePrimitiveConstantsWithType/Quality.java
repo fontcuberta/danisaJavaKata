@@ -1,4 +1,4 @@
-package replaceConstantsWithEnum;
+package replacePrimitiveConstantsWithType;
 
 public class Quality {
     public final static String Excellent = "Excellent";
