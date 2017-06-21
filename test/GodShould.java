@@ -1,5 +1,3 @@
-package tests;
-
 import narrowOrParallel.moveResponsibility.God;
 import org.junit.Test;
 

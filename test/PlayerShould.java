@@ -1,5 +1,3 @@
-package tests;
-
 import narrowOrParallel.constructorFusion.Player;
 import narrowOrParallel.constructorFusion.Role;
 import org.junit.Test;

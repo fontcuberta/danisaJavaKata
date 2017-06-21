@@ -1,5 +1,3 @@
-package tests;
-
 import narrowOrParallel.replaceType.OldVehicleQuery;
 import narrowOrParallel.replaceType.SqlVehicleMatcher;
 import org.junit.Test;

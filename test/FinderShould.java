@@ -1,5 +1,3 @@
-package tests;
-
 import narrowOrParallel.dependencyChange.Finder;
 import narrowOrParallel.dependencyChange.SpecificFinder;
 import narrowOrParallel.dependencyChange.UserRepository;
