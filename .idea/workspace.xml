@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa8c7724-d946-4e69-98a4-153dd3701567" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/CodesaiRefactoringWorkshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CodesaiRefactoringWorkshop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/narrowOrParallel/implementationChange/Price.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/narrowOrParallel/signatureChange/Id.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/narrowOrParallel/implementationChange/ExternalCartClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/narrowOrParallel/implementationChange/ExternalCartClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/narrowOrParallel/implementationChange/LocalCartClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/narrowOrParallel/implementationChange/LocalCartClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/narrowOrParallel/implementationChange/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/narrowOrParallel/implementationChange/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/narrowOrParallel/signatureChange/AnotherAuthenticatorClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/narrowOrParallel/signatureChange/AnotherAuthenticatorClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/narrowOrParallel/signatureChange/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/narrowOrParallel/signatureChange/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/narrowOrParallel/signatureChange/AuthenticatorClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/narrowOrParallel/signatureChange/AuthenticatorClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/AuthenticationServiceShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/AuthenticationServiceShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ShoppingCartShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ShoppingCartShould.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,41 +23,95 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ShoppingCartShould.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/ShoppingCartShould.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthenticationServiceShould.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/AuthenticationServiceShould.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShoppingCart.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/narrowOrParallel/implementationChange/ShoppingCart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.24166666">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="ShoppingCartShould.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/ShoppingCartShould.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="18" selection-start-line="18" selection-end-line="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="ShoppingCart.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/narrowOrParallel/implementationChange/ShoppingCart.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+                  <folding>
+                    <element signature="e#240#241#0" expanded="true" />
+                    <element signature="e#278#279#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LocalCartClient.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/narrowOrParallel/implementationChange/LocalCartClient.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="79" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ExternalCartClient.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/narrowOrParallel/implementationChange/ExternalCartClient.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Price.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/narrowOrParallel/implementationChange/Price.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+                  <folding>
+                    <element signature="e#127#128#0" expanded="true" />
+                    <element signature="e#161#162#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/narrowOrParallel/signatureChange/Id.java" />
+        <option value="$PROJECT_DIR$/test/AuthenticationServiceShould.java" />
+        <option value="$PROJECT_DIR$/src/narrowOrParallel/signatureChange/AuthenticatorClient.java" />
+        <option value="$PROJECT_DIR$/src/narrowOrParallel/signatureChange/AnotherAuthenticatorClient.java" />
+        <option value="$PROJECT_DIR$/src/narrowOrParallel/signatureChange/AuthenticationService.java" />
+        <option value="$PROJECT_DIR$/src/narrowOrParallel/implementationChange/Price.java" />
+        <option value="$PROJECT_DIR$/test/ShoppingCartShould.java" />
+        <option value="$PROJECT_DIR$/src/narrowOrParallel/implementationChange/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/narrowOrParallel/implementationChange/ExternalCartClient.java" />
+        <option value="$PROJECT_DIR$/src/narrowOrParallel/implementationChange/LocalCartClient.java" />
+      </list>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -60,7 +124,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
@@ -123,18 +187,80 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ShoppingCartShould">
+    <configuration name="LocalCartClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="narrowOrParallel.implementationChange.LocalCartClient" />
+      <module name="CodesaiRefactoringWorkshop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="narrowOrParallel.implementationChange.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="All in CodesaiRefactoringWorkshop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthenticationServiceShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodesaiRefactoringWorkshop" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
+      <option name="MAIN_CLASS_NAME" value="AuthenticationServiceShould" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AuthenticationServiceShould.distinguish_administrator_role" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodesaiRefactoringWorkshop" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AuthenticationServiceShould" />
+      <option name="METHOD_NAME" value="distinguish_administrator_role" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ShoppingCartShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodesaiRefactoringWorkshop" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShoppingCartShould" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ShoppingCartShould.calculate_total_price" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodesaiRefactoringWorkshop" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShoppingCartShould" />
+      <option name="METHOD_NAME" value="calculate_total_price" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -182,9 +308,20 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.ShoppingCartShould.calculate_total_price" />
+      <item itemvalue="JUnit.ShoppingCartShould" />
+      <item itemvalue="JUnit.AuthenticationServiceShould.distinguish_administrator_role" />
+      <item itemvalue="JUnit.AuthenticationServiceShould" />
+      <item itemvalue="Application.LocalCartClient" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in CodesaiRefactoringWorkshop" />
+        <item itemvalue="JUnit.ShoppingCartShould" />
+        <item itemvalue="Application.LocalCartClient" />
+        <item itemvalue="JUnit.ShoppingCartShould.calculate_total_price" />
+        <item itemvalue="JUnit.AuthenticationServiceShould" />
+        <item itemvalue="JUnit.AuthenticationServiceShould.distinguish_administrator_role" />
       </list>
     </recent_temporary>
   </component>
@@ -202,35 +339,62 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_CodesaiRefactoringWorkshop - 2018.07.05 at 11h 39m 11s.xml">
-      <configuration name="All in CodesaiRefactoringWorkshop" configurationId="JUnit" />
+    <history-entry file="AuthenticationServiceShould - 2018.07.05 at 12h 28m 58s.xml">
+      <configuration name="AuthenticationServiceShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AuthenticationServiceShould - 2018.07.05 at 12h 31m 21s.xml">
+      <configuration name="AuthenticationServiceShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AuthenticationServiceShould - 2018.07.05 at 12h 31m 37s.xml">
+      <configuration name="AuthenticationServiceShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCartShould - 2018.07.05 at 12h 49m 45s.xml">
+      <configuration name="ShoppingCartShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCartShould - 2018.07.05 at 12h 52m 30s.xml">
+      <configuration name="ShoppingCartShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCartShould_calculate_total_price - 2018.07.05 at 12h 56m 18s.xml">
+      <configuration name="ShoppingCartShould.calculate_total_price" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCartShould_calculate_total_price - 2018.07.05 at 12h 57m 40s.xml">
+      <configuration name="ShoppingCartShould.calculate_total_price" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCartShould - 2018.07.05 at 12h 58m 20s.xml">
+      <configuration name="ShoppingCartShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCartShould - 2018.07.05 at 13h 00m 25s.xml">
+      <configuration name="ShoppingCartShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCartShould - 2018.07.05 at 13h 02m 08s.xml">
+      <configuration name="ShoppingCartShould" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="729" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32977098" />
+      <window_info anchor="bottom" id="Messages" weight="0.328877" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" weight="0.3296875" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32977098" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28877005" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.328877" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -241,28 +405,105 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/narrowOrParallel/signatureChange/Id.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/narrowOrParallel/signatureChange/AuthenticatorClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="79" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/narrowOrParallel/signatureChange/AuthenticationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding>
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/narrowOrParallel/signatureChange/AnotherAuthenticatorClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/AuthenticationServiceShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="150">
+          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/narrowOrParallel/implementationChange/ShoppingCart.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/function/ToIntFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="360">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/ShoppingCartShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        <state relative-caret-position="225">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/narrowOrParallel/implementationChange/ShoppingCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/narrowOrParallel/implementationChange/ExternalCartClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/narrowOrParallel/implementationChange/LocalCartClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="79" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/narrowOrParallel/implementationChange/Price.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

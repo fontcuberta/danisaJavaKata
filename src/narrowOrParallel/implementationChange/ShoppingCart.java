@@ -1,21 +1,27 @@
 package narrowOrParallel.implementationChange;
 
-public class ShoppingCart {
-    private int price;
+import java.util.ArrayList;
 
-    public void add(int price) {
-        this.price = price;
+public class ShoppingCart {
+    // private int price;
+    private ArrayList<Price> prices = new ArrayList();
+
+    public void add(Price itemPrice) {
+        this.prices.add(itemPrice);
     }
 
-    public int calculateTotalPrice() {
-        return price;
+    public Price calculateTotalPrice() {
+        int calculatedTotal = this.prices.stream().mapToInt(a -> a.getPrice()).sum();
+        Price totalPrice = new Price(calculatedTotal);
+        return totalPrice;
+        // return price;
     }
 
     public boolean hasDiscount() {
-        return price >= 100;
+        return this.calculateTotalPrice().getPrice() >= 100;
     }
 
     public int numberOfProducts() {
-        return 1;
+        return this.prices.size();
     }
 }
